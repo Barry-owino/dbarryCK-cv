@@ -60,6 +60,11 @@ body{
 
 }
 
+.contact{
+  margin-top:20px;
+  color:#fff;
+}
+
 .right-side{
   background:#fff;
   height:150vh;
@@ -68,3 +73,22 @@ body{
   padding:20px;
 }
 
+.cont-items{
+  margin-top:10px;
+}
+
+.cont-items ul{
+
+}
+
+.cont-items ul li{
+  list-style-type: none;
+  padding:10px;
+}
+
+span.icon{
+  padding:10px;
+}
+span.text{
+  color:aquamarine;
+}
