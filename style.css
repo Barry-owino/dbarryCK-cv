@@ -6,34 +6,32 @@
 }
 
 body{
-  background:rgb(106, 211, 230);
+  background:rgb(176, 230, 226);
+}
+
+.container{
   display:flex;
   flex-direction:row;
   justify-content:center;
   align-items:center;
-  min-height:100vh;
-}
-
-.container{
-  position:relative;
-  width:100%;
-  max-width: 1000px;
-  background:#fff;
-  display:grid;
-  grid-template-columns: 1fr, 2fr;
-  box-shadow:0 35px 55px rgba(0,0,0,0.1);
-  margin:50px;
-
+  padding:100px;
+  height:auto;
 }
 
 .left-side{
-  background:#003147;
-  padding:40px;
-  position:relative;
+  background:blue;
+  height:150vh;
+  width:100%;
+  flex-basis: 30%;
+  padding:20px;
+
 }
 
 .right-side{
   background:#fff;
-  padding:40px;
-  position:relative;
+  height:150vh;
+  width:100%;
+  flex-basis: 70%;
+  padding:20px;
 }
+
