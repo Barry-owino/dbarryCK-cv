@@ -18,9 +18,13 @@ body{
   height:auto;
 }
 
+.title{
+  color:#fff;
+}
+
 .left-side{
   background:blue;
-  height:150vh;
+  height:250vh;
   width:100%;
   flex-basis: 30%;
   padding:20px 20px;
@@ -67,7 +71,7 @@ body{
 
 .right-side{
   background:#fff;
-  height:150vh;
+  height:250vh;
   width:100%;
   flex-basis: 70%;
   padding:20px;
@@ -91,4 +95,16 @@ span.icon{
 }
 span.text{
   color:aquamarine;
+}
+
+.edu-items{
+  color:aquamarine;
+  margin-top: 15px;
+}
+
+.edu-items.item{
+  padding:10px;
+  display:flex;
+  flex-direction:column;
+  justify-content:space-between;
 }
