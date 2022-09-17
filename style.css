@@ -102,8 +102,9 @@ span.text{
   color:aquamarine;
 }
 
-.education h2{
+.education,.language h2{
   margin-top:15px;
+  color:#fff;
 
 }
 
@@ -128,4 +129,31 @@ span.text{
 }
 
 .edu-items ul li .inst{
+}
+
+.lang-items ul{
+
+}
+
+.lang-items ul li{
+  list-style-type:none;
+  padding:10px;
+}
+
+.percentage{
+  position:relative;
+  width:100%;
+  height:6px;
+  background:#f00;
+  display:block;
+  margin-top:5px;
+  border-radius: 8px;
+}
+
+.percentage div{
+  position:absolute;
+  top:0;
+  left:0;
+  height:100%;
+  background:aquamarine;
 }
