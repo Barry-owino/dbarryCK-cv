@@ -98,13 +98,26 @@ span.text{
 }
 
 .edu-items{
+  margin-top:10px;
   color:aquamarine;
-  margin-top: 15px;
 }
 
-.edu-items.item{
+.education h2{
+  margin-top:15px;
+
+}
+
+.edu-items ul{
+  
+}
+
+.edu-items ul li{
+  list-style-type:none;
   padding:10px;
   display:flex;
   flex-direction:column;
-  justify-content:space-between;
+}
+
+.edu-items ul li span{
+  padding:4px;
 }
