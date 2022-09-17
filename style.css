@@ -121,3 +121,11 @@ span.text{
 .edu-items ul li span{
   padding:4px;
 }
+
+.edu-items ul li .year{
+  color:#fff;
+  letter-spacing: 1px;
+}
+
+.edu-items ul li .inst{
+}
