@@ -172,14 +172,14 @@ span.text{
 .experience{
   margin-top: 20px;
   width:100%;
-  height:50vh;
+  height:60vh;
 }
 .experience .item{
-  margin-top:15px;
+  margin-top:10px;
   display:flex;
   flex-direction:row;
   width:100%;
-  height:20vh;
+  height:15vh;
 }
 .experience .item .left{
   flex-basis: 20%;
@@ -192,6 +192,37 @@ span.text{
   background:#fff;
 }
 
-.experience .item .right h4,.left h4{
+.experience p{
+  margin-top:5px;
+}
+.experience .right h4{
   color:cadetblue;
+}
+
+.skills{
+
+}
+
+.skills .box{
+  margin:5px;
+  padding:10px;
+}
+
+.hobby{
+  margin-top:20px;
+}
+
+.hobby ul{
+  display:flex;
+  flex-direction:row;
+  justify-content:space-between;
+  background:;
+  padding:20px;
+}
+
+.hobby ul li{
+  list-style: none;
+  padding:10px;
+  background:blue;
+  border-radius: 8px;
 }
