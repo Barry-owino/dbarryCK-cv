@@ -225,6 +225,7 @@ span.text{
 .hobby ul li{
   list-style: none;
   padding:10px;
-  background:blue;
+  background:grey;
+  color:#fff;
   border-radius: 8px;
 }
