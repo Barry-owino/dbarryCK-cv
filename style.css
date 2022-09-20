@@ -24,7 +24,7 @@ body{
 
 .left-side{
   background:blue;
-  height:250vh;
+  height:220vh;
   width:100%;
   flex-basis: 30%;
   padding:20px 20px;
@@ -152,7 +152,7 @@ span.text{
 /*the right side*/
 .right-side{
   background:#fff;
-  height:250vh;
+  height:220vh;
   width:100%;
   flex-basis: 70%;
   padding:20px;
